@@ -1,0 +1,49 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        min-height: 100vh;
+        background-color: rgb(236, 196, 146);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        background-color: rgb(5, 17, 56);
+        color: rgb(216, 173, 117);
+        padding: 1rem;
+        width: 25%;
+        border-radius: 1rem;
+        min-height: 50vh;
+    }
+    
+    .title {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    
+    #item,
+    #addButton {
+        padding: .4rem;
+        border: none;
+        border-radius: .3rem;
+    }
+    
+    #item {
+        width: 75%;
+    }
+    
+    #addButton {
+        background-color: bisque;
+        width: 20%;
+        font-weight: 900;
+    }
+    
+    #addButton:focus,
+    #item:focus {
+        outline: 0;
+    }
